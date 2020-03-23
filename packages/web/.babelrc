@@ -1,0 +1,12 @@
+{
+  "env": {
+    "production": {
+      "presets": ["@babel/preset-react", "@babel/env"],
+      "plugins": ["emotion"]
+    },
+    "development": {
+      "presets": ["@babel/preset-react", "@babel/env"],
+      "plugins": [["emotion", { "sourceMap": true }]]
+    }
+  }
+}

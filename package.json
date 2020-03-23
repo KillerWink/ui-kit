@@ -1,0 +1,29 @@
+{
+  "name": "@killerwink/ui-kit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "/src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "cd ./web/ && prepublish",
+    "release": "np"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KillerWink/ui-kit.git"
+  },
+  "author": "Thomas Gambina <thomas.gambina@gmail.com> (http://killerwink.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KillerWink/ui-kit/issues"
+  },
+  "homepage": "https://github.com/KillerWink/ui-kit#readme",
+  "dependencies": {
+    "@emotion/core": "10.0.28",
+    "@emotion/native": "10.0.27",
+    "emotion-theming": "10.0.27"
+  },
+  "devDependencies": {
+    "np": "6.2.0"
+  }
+}
