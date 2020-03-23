@@ -5,7 +5,7 @@
   "main": "/src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "cd @killerwink/packages/ui-kit/web && prepublish",
+    "prepublish": "cd web && prepublish",
     "release": "np"
   },
   "repository": {
