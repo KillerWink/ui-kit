@@ -5,7 +5,7 @@
   "main": "/src/index.js",
   "scripts": {
     "prepublish": "cd ./packages/web && npm run build",
-    "release": "np"
+    "release": "np contents=. && np contents=packages/web"
   },
   "repository": {
     "type": "git",
