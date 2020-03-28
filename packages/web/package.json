@@ -1,5 +1,5 @@
 {
-  "name": "@killerwink/web",
+  "name": "@killerwink/ui-kit/web",
   "version": "0.0.0",
   "description": "",
   "main": "build/index.js",
@@ -8,6 +8,7 @@
     "prepublish": "npm run build",
     "release": "np"
   },
+  "repository": "https://github.com/KillerWink/ui-kit/tree/master/packages/web",
   "author": "Thomas Gambina <thomas.gambina@gmail.com> (http://killerwink.com/)",
   "license": "ISC",
   "dependencies": {
